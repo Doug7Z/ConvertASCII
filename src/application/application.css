@@ -1,0 +1,131 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.TelaPrincipal{
+	-fx-padding: 10
+}
+
+.Tela1{
+
+	-fx-min-width: 430;
+    -fx-max-width: 430;    
+    -fx-min-height: 400;
+    -fx-max-height: 400;  
+	-fx-translate-x: 0px;
+	-fx-translate-y: 100px;
+	-fx-border-color: #434343;
+	  -fx-border-width: 0;   
+	-fx-alignment: center;
+
+	 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.9), 10, 0, 0, 0);
+    -fx-border-radius: 0px; 
+}
+
+.Tela2{
+	-fx-min-width: 850;
+    -fx-max-width: 850;  
+    -fx-min-height: 630;
+    -fx-max-height: 630;  
+	
+	-fx-translate-x: 5px;
+	-fx-translate-y: 0px;
+	
+	 -fx-border-width: 1 1 1 1;
+	-fx-border-color: #3498db;
+	 -fx-effect: innershadow(gaussian, #606060, 10, 0, 0, 0);
+	 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0.9, 0.5), 10, 0, 0, 0);
+}
+
+
+.imageView1{
+	 -fx-translate-x: 0px;
+	 -fx-translate-y: 7px;
+}
+.imageView2{
+	 -fx-translate-x: 7px;
+}
+
+.Menu1 {
+   -fx-min-width: 50;
+    -fx-max-width: 400;
+    -fx-min-height: 390;
+    -fx-max-height: 390;
+     -fx-translate-y: -300px;
+     -fx-translate-x: 3px;
+    -fx-background-color: #434343;  
+  -fx-effect: innershadow(gaussian, #606060, 10, 0, 0, 0); 
+	-fx-opacity: 0.5;
+	-fx-background-radius: 0;  
+}
+
+.btnTela1Abrir{
+	 -fx-translate-y: 20px;
+     -fx-translate-x: 0px;
+     
+     
+    -fx-background-color: #3498db; 
+    -fx-background-radius: 15;   
+    -fx-text-fill: white;       
+    -fx-font-size: 14;          
+    -fx-padding: 8 16;
+    
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0, 0, 0);
+    
+}
+
+.btnTela1Abrir:hover{
+	-fx-background-color: #2980b9;
+}
+
+
+
+
+
+
+
+
+.Menu2{
+	-fx-min-width: 50;
+    -fx-max-width: 600;
+    -fx-min-height: 50;
+    -fx-max-height: 50;
+	-fx-background-color: transparent;
+	-fx-translate-y:10px;
+    -fx-translate-x: 120px;
+}
+.areaTela2{
+	-fx-translate-x: 2px;
+	-fx-translate-y: 5px;
+}
+.btnTela12Gerar{
+	-fx-translate-y: -30px;
+    -fx-translate-x:250px;
+    
+    -fx-background-color: #3498db; 
+    -fx-background-radius: 15;   
+    -fx-text-fill: white;       
+    -fx-font-size: 14;          
+    -fx-padding: 8 16;
+    
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0, 0, 0);
+}
+.btnTela12Gerar:hover{
+	-fx-background-color: #2980b9;
+}
+
+
+.btnTela12Salvar{
+	-fx-translate-y: -66px;
+    -fx-translate-x: 500px;
+    
+    -fx-background-color: #3498db; 
+    -fx-background-radius: 15;   
+    -fx-text-fill: white;       
+    -fx-font-size: 14;          
+    -fx-padding: 8 16;
+    
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0, 0, 0);
+}
+.btnTela12Salvar:hover{
+	-fx-background-color: #2980b9;
+}
